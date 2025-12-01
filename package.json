@@ -1,0 +1,14 @@
+{
+    "name": "larabiz",
+    "version": "1.0.0",
+    "description": "Business suite software built with Laravel and Tailwind CSS",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+        "name": "Lendra",
+        "email": "git@lendra.eu.org"
+    },
+    "license": "MIT"
+}
