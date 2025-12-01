@@ -4,7 +4,8 @@
     "description": "Business suite software built with Laravel and Tailwind CSS",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sso:artisan": "node scripts/sso.artisan.js"
     },
     "author": {
         "name": "Lendra",
