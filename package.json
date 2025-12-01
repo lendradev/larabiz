@@ -1,15 +1,17 @@
 {
-    "name": "larabiz",
-    "version": "1.0.0",
-    "description": "Business suite software built with Laravel and Tailwind CSS",
-    "main": "index.js",
+    "$schema": "https://www.schemastore.org/package.json",
+    "private": true,
+    "type": "module",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "sso:artisan": "node scripts/sso.artisan.js"
+        "build": "vite build",
+        "dev": "vite"
     },
-    "author": {
-        "name": "Lendra",
-        "email": "git@lendra.eu.org"
-    },
-    "license": "MIT"
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.0.0",
+        "axios": "^1.11.0",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^2.0.0",
+        "tailwindcss": "^4.0.0",
+        "vite": "^7.0.7"
+    }
 }
